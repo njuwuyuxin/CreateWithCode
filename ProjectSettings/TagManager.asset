@@ -11,6 +11,8 @@ TagManager:
   - Background
   - Ceiling
   - Floor
+  - Powerup
+  - Enemy
   layers:
   - Default
   - TransparentFX
