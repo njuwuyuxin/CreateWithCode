@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6060458887506468855}
   - component: {fileID: 6060458887498811711}
   - component: {fileID: 6060458888339488085}
-  - component: {fileID: 3434721487035818052}
   - component: {fileID: 814292263}
-  - component: {fileID: 1911585881931565875}
+  - component: {fileID: 5944483141001771867}
+  - component: {fileID: 770465360832836866}
   m_Layer: 0
   m_Name: Dog_BorderCollie_01
   m_TagString: Untagged
@@ -104,20 +104,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
---- !u!114 &3434721487035818052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6060458887506134151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ecf5bea4c02226409b94bc7c3f680ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topBound: 30
-  bottomBound: -30
 --- !u!65 &814292263
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -131,7 +117,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.064914465, y: 0.19530208, z: 0.2676117}
   m_Center: {x: 0, y: 0.10072129, z: 0.030682934}
---- !u!114 &1911585881931565875
+--- !u!114 &5944483141001771867
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +126,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 6060458887506134151}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4f495efb18b60c49864632a95a87212, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &770465360832836866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6060458887506134151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6060458887506134895

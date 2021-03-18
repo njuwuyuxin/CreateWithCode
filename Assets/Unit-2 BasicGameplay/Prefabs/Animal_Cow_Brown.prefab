@@ -1377,9 +1377,9 @@ GameObject:
   - component: {fileID: 2037315786813545417}
   - component: {fileID: 2037315786821259659}
   - component: {fileID: 2037315785197480833}
-  - component: {fileID: 2447381200394258849}
   - component: {fileID: 2048244454}
-  - component: {fileID: 6814611825941036513}
+  - component: {fileID: 1510547154480968895}
+  - component: {fileID: 6497886650772792643}
   m_Layer: 0
   m_Name: Animal_Cow_Brown
   m_TagString: Untagged
@@ -1434,20 +1434,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
---- !u!114 &2447381200394258849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2037315786813863691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ecf5bea4c02226409b94bc7c3f680ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topBound: 30
-  bottomBound: -30
 --- !u!65 &2048244454
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1461,7 +1447,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10.904953, y: 31.282848, z: 48.2245}
   m_Center: {x: 0, y: 15.3186, z: 0.06728172}
---- !u!114 &6814611825941036513
+--- !u!114 &1510547154480968895
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1470,7 +1456,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 2037315786813863691}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4f495efb18b60c49864632a95a87212, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6497886650772792643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037315786813863691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2037315786813873735
